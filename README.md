@@ -1,71 +1,92 @@
-# MAD201-ASSIGNMENT01-KhushiPatel
+MAD201-ASSIGNMENT01-KhushiPatel
+Lab Title
 
-## Lab Title
-MAD201 - Cross Platform Mobile App Development  
-**Student Name:** Khushi Patel  
-**Student ID:** A00198843
+Cross Platform Mobile App Travel App.
 
-## Project Description
-This is a Flutter Travel App developed as part of the MAD201 assignment.  
-The app demonstrates:
+Student
 
-- Dart OOP (classes, inheritance, constructors, methods, null safety)  
-- Stateless and Stateful Widgets  
-- Layouts and styling using Row, Column, Container, Stack, Flexible, and Expanded  
-- Multiple navigation approaches (Navigator, Named Routes, BottomNavigationBar, Drawer)  
-- Passing and returning data between screens  
-- App-wide state management with a top-level stateful widget  
+Khushi Patel ID: A00198843.
 
-### Screens & Features
-1. **Home Screen**
-   - Lists destinations with name, country, and favorite toggle
-   - Tap a destination to see details
+Project Description
 
-2. **Details Screen**
-   - Shows full info for each destination
-   - Buttons to mark as visited or add to favorites
+This Flutter application is a Travel App that illustrates some fundamental ideas about:
 
-3. **Profile Screen**
-   - Displays user info (name, traveler level)
-   - Tabs for user info, visited destinations, and statistics
+Dart OOP, classes, collection, constructors, and inheritance.
 
-4. **Navigation**
-   - BottomNavigationBar: Home, Bookings, Profile  
-   - Drawer: Settings, Help (SnackBar), About (static info)  
-   - Named Routes for Settings and About screens  
+Stateless and Stateful Widgets: Custom reusable components.
 
-5. **Additional Features**
-   - App-wide state updates favorites/visited destinations across screens  
-   - Search bar to filter destinations by name or country  
-   - Sort destinations by rating, country, or name  
-   - Dark mode toggle in Settings  
+Layouts and Styling: Row, Column, Container, Flexible, Expanded.
 
-### Notes
-- **Images are not included** in the app to avoid loading and runtime issues. You can add your own image URLs if needed.
+Multi-screen Navigation: Navigator, named routes, tabs, drawer, bottom navigation bar.
 
-### Project Structure
-lib/
-main.dart
-models/
-destination.dart
-repository.dart
-user.dart
-screens/
-home_screen.dart
-details_screen.dart
-profile_screen.dart
-bookings_screen.dart
-settings_screen.dart
-about_screen.dart
-widgets/
-app_drawer.dart
+Screen-wide State Management: Synchronizing favorite and visited destinations.
 
-yaml
-Copy code
+Profile and statistics: see user profile, destinations and statistics.
 
-### GitHub Workflow
-- At least 5 meaningful commits  
-- At least 3 Pull Requests representing logical features/changes  
-- Final repository includes all code, proper documentation, and README  
+Features Implemented
 
----
+Home Screen:
+
+Contain lists of destinations (name, country, description)
+
+Toggle favorites
+
+Navigate to Details Screen
+
+Details Screen:
+
+Displays all the details of a destinations (name, country, description, rating/famous food)
+
+Visit and Favoritism buttons.
+
+Profile Screen:
+
+User info
+
+Tabs: info, visited destinations, stats.
+
+It shows the number of visited countries and favorites.
+
+Navigation:
+
+Home, Bookings, Profile (BottomNavigationBar)
+
+Drawer (Settings, Help, About)
+
+App-wide State Management:
+
+Visited status in all screens and favorites.
+
+Dark Mode Toggle:
+
+It can alternate between light and dark themes in Settings.
+
+Additional Notes:
+
+Images are not used in the app because it can lead to problems during runtime and compilation errors. Every location is marked by text and icons only.
+
+Destinations Included
+
+Paris, France
+
+Kyoto, Japan
+
+New York, USA
+
+Delhi, India
+
+Rome, Italy
+
+Marrakech, Morocco
+
+Commit & PR Strategy
+
+Project contains at least 5 significant commits.
+
+They created 3 Pull Requests (PRs) about:
+
+Adding data models
+
+Using Home and Details screens.
+
+Including Profile, Drawer, Settings and About screens.
